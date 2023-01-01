@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react'
+import Banner from "./components/layout/Banner/Banner";
+import TheHeader from "./components/layout/Header/TheHeader";
+import TheSection from "./components/Main/Section/TheSection";
+import VideoSection from "./components/Main/VideoSection/TheSection";
+import FeaturedSection from "./components/Main/Games/TheSection";
 import './App.css';
+import './index.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+      <div className="header-wrapper">
+        <TheHeader></TheHeader>
+        <Banner></Banner>
+      </div>
+      <TheSection></TheSection>
+      <VideoSection></VideoSection>
+      <FeaturedSection></FeaturedSection>
+    </>;
 }
 
 export default App;

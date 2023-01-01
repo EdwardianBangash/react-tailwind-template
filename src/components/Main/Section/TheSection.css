@@ -1,0 +1,39 @@
+.banner-section{
+    background-image:linear-gradient(143deg, rgba(251,163,172,1) 12%, rgba(255,255,255,1) 34%) !important;
+}
+
+.banner-section-left{
+    height: 100%;
+    border-right-width: 2px;
+    border-right-color: #EBB792;
+}
+
+.banner-section-left-image{
+    background-image: url('../../../king-yeti-left.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -85px;
+    width: 820px;
+    height: 100%;
+}
+
+.banner-section-right{
+    height: 100%;
+}
+
+.banner-section-right-image{
+    background-image: url('../../../King_Characters_right.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+}
+
+.play-now-btn{
+    border-radius: 40px;
+    padding: 15px 40px;
+    background: linear-gradient(180deg,#23B882,#23B882 52%,#23B882);
+    color: #fff;
+    font-size: 2em;
+    box-shadow:  inset 0 -4px 0 rgb(0 0 0 / 30%), 0 4px 6px rgb(0 0 0 / 22%);
+}

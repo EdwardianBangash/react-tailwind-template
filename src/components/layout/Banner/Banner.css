@@ -1,0 +1,26 @@
+.banner {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../../banner.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 55vh;
+}
+
+.banner-btn{
+    border-radius: 40px;
+    padding: 15px 40px;
+    background: linear-gradient(180deg,#ffbe00,#ff6a00 52%,#fb418a);
+    color: #fff;
+    font-size: 2em;
+    box-shadow:  inset 0 -4px 0 rgb(0 0 0 / 30%), 0 4px 6px rgb(0 0 0 / 22%);
+}

@@ -1,0 +1,8 @@
+
+
+.features-games-image{
+    background-image: url('../../../features_games.webp');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: contain;
+}
